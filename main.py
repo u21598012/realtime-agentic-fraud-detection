@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, classification_report, roc_auc_score
 import xgboost as xgb
 import pickle
-
+#stored csv
 fd_ = pd.read_csv("AIML Dataset.csv")
 
 print(fd_.head())

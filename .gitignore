@@ -1,2 +1,3 @@
 venv
 *.csv
+!test_fraud_detection_data.csv
